@@ -1,0 +1,26 @@
+.base-content {
+  background: linear-gradient(-90deg, #ffb703, #9b5de5, #00bbf9, #f15bb5);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 55% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+/* -------------------------------- LIST-CSS -------------------------------- */
+.todo {
+  flex-basis: 80%;
+}
+.container-action {
+  flex-basis: 20%;
+}
